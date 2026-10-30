@@ -1,0 +1,21 @@
+# Phase 1 runtime
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.2
+# Data/geo stack (used from later phases; listed now so the environment is ready)
+numpy
+pandas<3
+pyarrow
+rasterio
+sqlalchemy>=2.0
+psycopg[binary]>=3.1
+geoalchemy2>=0.15
+alembic>=1.13
+# Tests
+pytest
+httpx
+
+# Benchmarking (Phase 5). PySpark 4.x needs Java 17 or 21.
+pyspark>=4.0,<5
+psutil

@@ -1,0 +1,10 @@
+numpy
+pandas<3
+pyarrow
+pyspark
+rasterio
+pystac-client
+planetary-computer
+pyyaml
+pytest
+psutil

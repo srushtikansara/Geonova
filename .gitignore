@@ -1,0 +1,22 @@
+# secrets and local config
+.env
+.env.*
+!.env.example
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# node / build
+node_modules/
+dist/
+*.log
+# data and generated artifacts (tests build small synthetic fixtures at run time)
+data/
+outputs/
+*.parquet
+*.tif
+*.tiff
+*.jp2
+*.zip

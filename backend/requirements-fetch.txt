@@ -1,0 +1,3 @@
+# Optional: only needed for scripts/fetch_sentinel2.py (downloads real Sentinel-2 windows)
+pystac-client
+planetary-computer

@@ -1,0 +1,14 @@
+# GEONOVA configuration. No credentials belong in this file.
+grid_m: 20                 # decision D1 (proposed): analyse on a 20 m grid
+valid_scl_classes: [4, 5, 6, 7]   # vegetation, not-vegetated, water, unclassified
+year: 2023                 # start with one year, extend later
+months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+max_cloud_cover: 40        # scene-level filter (percent), tested as a variant in Experiment C
+cities:
+  # Approximate boxes (min_lon, min_lat, max_lon, max_lat). CHECK AND ADJUST these before use.
+  Ahmedabad: [72.45, 22.93, 72.70, 23.13]
+  Surat:     [72.72, 21.08, 72.93, 21.28]
+  Pune:      [73.74, 18.45, 73.99, 18.65]
+tolerance:
+  abs: 1.0e-9
+  rel: 1.0e-7

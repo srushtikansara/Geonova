@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.parquet
+*.tif
+*.tiff
+*.jp2
+data_store/
+# Large imagery and generated outputs stay out of git. Tests create small synthetic fixtures at run time.
+data/raw/*
+data/processed/*
+data/benchmarks/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
