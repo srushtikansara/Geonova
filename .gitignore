@@ -20,3 +20,5 @@ outputs/
 *.tiff
 *.jp2
 *.zip
+
+*.pdf
